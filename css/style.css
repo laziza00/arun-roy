@@ -335,9 +335,9 @@ transform: translate(-65%, -50%);
 }
 
 .close-box{
-  position: absolute;
+  /* position: absolute;
   top: 20%;
-  right: 15%;
+  right: 15%; */
  
 }
 .modalclose{
