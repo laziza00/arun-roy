@@ -64,6 +64,7 @@ body {
 }
 .more{
   width: 70px;
+  text-transform: capitalize;
   transition: all 0.5s ease;
   color: var(--text-color);
 }
@@ -334,12 +335,7 @@ transform: translate(-65%, -50%);
   background-color: rgb(26, 100, 8);
 }
 
-.close-box{
-  /* position: absolute;
-  top: 20%;
-  right: 15%; */
- 
-}
+
 .modalclose{
   width: 20px;
   height: 20px;
