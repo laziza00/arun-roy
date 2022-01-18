@@ -5,14 +5,184 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>arun-roy</title>
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
   <link rel="stylesheet" href="css/col.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+  <header class="site-header">
+    <div class="container">
+      <div class="header-inner row middle ">
+        <div class="header-logo">
+          <a class="logo-link" href="#"></a>
+        </div>
+        <nav class="header-nav">
+          <ul class="nav-list style-none row">
+            <li class="nav-item">
+              <a class="nav-link" href="#">home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">feature</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">elemnts</a>
+            </li>
+            <li class="nav-item member">
+              <a class="nav-link" href="#">membership</a>
+            </li>
+            <li class="nav-item row middle more">
+              more <i class='bx bx-chevron-down'></i>
+              <div class="more-box">
+                <ul class="more-list style-none">
+                  <li class="more-item">
+                    <a class="more-link" href="#"> tags</a>
+                  </li>
+                  <li class="more-item">
+                    <a class="more-link" href="#"> autohrs</a>
+                  </li>
+                  <li class="more-item">
+                    <a class="more-link" href="#"> monthly archive</a>
+                  </li>
+                  <li class="more-item">
+                    <a class="more-link" href="#">yearly archive</a>
+                  </li>
+                  <li class="more-item">
+                    <a class="more-link" href="#">contact</a>
+                  </li>
+                  <li class="more-item">
+                    <a class="more-link" href="#">get theme</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </nav>
 
+        <div class="header-btn">
+          <a class="header-link sign text-none" href="#">sign in</a>
+          <a class="header-link sign-up text-none" href="#">sign up</a>
+        </div>
+
+        <div class="modal-box middle">
+          <button class="modalbtn" id="modalBtn">
+
+            <i class='bx bx-search'></i>
+
+          </button>
+        </div>
+
+        <div class="darklight-box middle">
+          <button class="darklight" id="darkbtn"> </button>
+        </div>
+
+      </div>
+    </div>
+  </header>
+  <section class="hero-section">
+    <div class="container">
+      <div class="hero-inner row middle between">
+
+        <div class="hero-info col-6">
+          <h1 class="hero-title">Hay, I am Arun</h1>
+
+          <p class="hero-text">
+            An architect, software developer, YouTuber and keynote speaker. On this site I write about my learning and
+            experience.
+          </p>
+          <div class="row middle form-box">
+            <form class="hero-form row">
+              <input class="input-inner row middle" type="email" name="email" id="input" placeholder="Your email adress "required>
+
+            </form>
+            <button class="inp-btn" id="input">
+              subscribe
+            </button>
+
+          </div>
+
+          <div class="social-box row middle">
+            <p class="text-follow">Follow:</p>
+            <ul class="social-list style-none row">
+              <li class="soacial-item">
+                <a href="#">
+                  <i class='bx bxl-twitter' style='color:#000'></i>
+                </a>
+              </li>
+              <li class="soacial-item">
+                <a href="#">
+                  <i class='bx bxl-facebook' style='color:#0e0d0d'></i>
+                </a>
+              </li>
+              <li class="soacial-item">
+                <a href="#">
+                  <i class='bx bxl-github' style='color:#0e0d0d'></i>
+                </a>
+              </li>
+              <li class="soacial-item">
+                <a href="#">
+                  <i class='bx bxl-instagram-alt' style='color:#0e0d0d'></i>
+                </a>
+              </li>
+
+            </ul>
+          </div>
+          </p>
+        </div>
+        <div class="hero-img">
+          <img class="farhan" src="images/hero-img.jpg" alt="img" width="400" height="400">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="modalbox " id="modalBox">
+    <div class="container">
+      <div class="input">
+        <input class="input-text" type="text" placeholder="Type to search">
+        <!-- <p class="press-text">Press esc to close</p> -->
+      </div>
+     
+
+      <div class="link-box  middle">
+
+        <ul class="link-list style-none row">
+          <li class="link-item">
+            <a class="link-modal inpir" href="#">Inspiration</a>
+          </li>
+          <li class="link-item">
+            <a class="link-modal life" href="#">lifestyle</a>
+          </li>
+          <li class="link-item">
+            <a class="link-modal nat" href="#">nature</a>
+          </li>
+          <li class="link-item">
+            <a class="link-modal health" href="#">health</a>
+          </li>
+          <li class="link-item">
+            <a class="link-modal trav" href="#">travel</a>
+          </li>
+          <li class="link-item">
+            <a class="link-modal food" href="#">food</a>
+          </li>
+          <li class="link-item">
+            <a class="link-modal techno" href="#">technology</a>
+          </li>
+        </ul>
+      </div>
+
+
+      <div class="close-box">
+        <button class="modalclose" id="closeBtn">X</button>
+      </div>
+    </div>
+  </div>
+  <div class="around-box">
+  </div>
+  <div class="around-box2">
+  </div>
   <script src="js/main.js"></script>
 </body>
 
