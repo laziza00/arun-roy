@@ -853,7 +853,8 @@ html{
 }
 .footer-title{
   margin-bottom: 30px;
-  font-size: 14px;
+  font-size: 18px;
+  font-weight: 500;
 }
 .footer-end{
   margin-bottom: 50px;
