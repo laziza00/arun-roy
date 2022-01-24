@@ -297,9 +297,7 @@ body {
   margin: 0 auto;
   padding: 60px 20px;
 }
-.show{
-  display: block;
-}
+
 .input{
   width: 628px;
   padding: 14px 20px;
@@ -913,4 +911,9 @@ html{
 }
 .arun:hover{
   color: #0057ff;
+}
+
+
+.show{
+  display: block;
 }
