@@ -284,7 +284,7 @@ body {
   background-color: var(--bg-color);
   width: 100vw;
   height: 100vh;
-  opacity: 1;
+  display: none;
   overflow: hidden;
   z-index: 100;
   transition: all 1s ease;
@@ -380,7 +380,7 @@ input[type="text"]{
   width: 28px;
   height: 28px;
   border-radius: 50%;
-  border: 2px solid #161f38;
+  border: 2px solid var(--text-color);
   background-color: transparent;
 }
 .modalclose{
@@ -388,7 +388,7 @@ input[type="text"]{
   font-size: 18px;
   border: none;
   font-weight: 500;
-  color: #161f38;
+  color: var(--text-color);
   padding: 3px 5px;
   display: flex;
   display: block;
