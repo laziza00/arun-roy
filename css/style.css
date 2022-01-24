@@ -270,7 +270,7 @@ body {
 }
 .modal-box button{
   border: none;
-  background-color: red;
+  background-color: transparent;
 }
 .modal-box{
   margin-right: 25px;
