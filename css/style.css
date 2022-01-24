@@ -483,7 +483,7 @@ input[type="text"]{
 
 .around-box{
   position: absolute;
-  top: 65%;
+  top: 62%;
   left: 76%;
   transform: translate(-50%, -50% );
   width: 650px;
@@ -495,7 +495,7 @@ input[type="text"]{
 }
 .around-box2{
   position: absolute;
-  top: 21%;
+  top: 23%;
   left: 56.5%;
   width: 550px;
   height: 500px;
