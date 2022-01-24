@@ -283,8 +283,8 @@ body {
   left: 0;
   background-color: var(--bg-color);
   width: 100vw;
-  height: 100vh;
-  display: none;
+  height: 0;
+  opacity: 0;
   overflow: hidden;
   z-index: 100;
   transition: all 1s ease;
@@ -922,5 +922,7 @@ html{
 
 
 .show{
-  display: block;
+  opacity: 1;
+  height: 100vh;
+  transition: all 0.4s ease;
 }
