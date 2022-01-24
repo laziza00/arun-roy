@@ -382,6 +382,7 @@ input[type="text"]{
   border-radius: 50%;
   border: 2px solid var(--text-color);
   background-color: transparent;
+  transition: all 0.4s ease;
 }
 .modalclose{
   cursor: pointer;
@@ -396,8 +397,14 @@ input[type="text"]{
   align-items: center;
   margin: 0 auto;
   background-color: transparent;
+  transition: all 0.4s ease;
 }
-
+.close-box:hover{
+  border: 2px solid  #0057ff;
+}
+.modalclose:hover{
+  color: #0057ff;
+}
 .farhan{
   border-radius: 50%;
 }
