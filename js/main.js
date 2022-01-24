@@ -15,9 +15,6 @@ elmodalbox.classList.remove('show');
 
 
 
-
-
-
 document.getElementById('darkbtn').addEventListener('click', function () 
 {document.body.classList.toggle('dark');
 

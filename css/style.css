@@ -281,7 +281,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #fff;
+  background-color: var(--bg-color);
   width: 100vw;
   height: 100vh;
   opacity: 1;
@@ -302,7 +302,7 @@ body {
   width: 628px;
   padding: 14px 20px;
   height: 48px;
-  background-color: var(--bg-color);
+  background-color: var(--placeholder-color);
   border: 1px solid #dadce5;
   border-radius: 5px;
   box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.0532439);
