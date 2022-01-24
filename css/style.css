@@ -505,10 +505,14 @@ input[type="text"]{
   animation: hero-anim2 50s infinite linear ;
 }
 
-
-
-
-
+/* @keyframes hero-anim {
+  from {
+     transform: rotate(0deg);
+  }
+  to {
+   transform: rotate(360deg);
+  }
+} */
 
 
 @keyframes hero-anim2 {
